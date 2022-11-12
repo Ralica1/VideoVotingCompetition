@@ -1,7 +1,11 @@
 body {
     margin: 0;
+    background-color: slategrey;
+    background-size: cover;
 }
-.body{}
+.body{
+   
+}
 
 .header{
     display: flex;
@@ -10,6 +14,16 @@ body {
 }
 .videoPlayer{
     display: flex;
-    justify-content: space-around;;
+    justify-content: space-around;
     flex-wrap: nowrap;
+}
+.rankingStats{
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    margin-left:4rem;
+    margin-right:4rem;
+}
+.table{
+    border: solid
 }
