@@ -1,37 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <title>Video Voting Competition</title>
-</head>
-<body>
-    <div class="body">
-        <div class="header"> 
-            <h1>Video voting Competition</h1>
-            <div class="iconContainer">
-                <a href="index.html"><img src="/icons/refreshIcon.png" alt=""></a>
-                <a href="."><img src="/icons/shareIcon.png" alt=""></a>
-            </div>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/style.css">
+        <title>Video voting</title>
+    </head>
+    <body id="back">
+        <div>
+            <a href="home.html">
+                <img class="refr" src="refr.png" alt="Refresh" style="float: left; width: 5%; height: 5%;">
+            </a>
+            <br><br>
+            <h1 class="hed">Video voting competition</h1>
         </div>
-            <div class="videoPlayer">
-                <div class="videoOne"><h3>Video 1</h3><iframe width="560" height="315" src="https://www.youtube.com/embed/eM2W62wOQlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                <div class="videoOne"><h3>Video 2</h3><iframe width="560" height="315" src="https://www.youtube.com/embed/BHACKCNDMW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-            </div>
-        <div class="rankingStats">
-            <h5>Top 5</h5>
-            <div class="table">
-                <ol>
-                    <li><img src="" alt=""></li>
-                    <li><img src="" alt=""></li>
-                    <li><img src="" alt=""></li>
-                    <li><img src="" alt=""></li>
-                    <li><img src="" alt=""></li>
-                </ol>
-            </div>
-        </div>            
-    </div>
-</body>
+        <div>
+            <form id="for" action="rankings.html">
+                <input type="submit" value="Go to Rankings Page">
+            </form>
+        </div>
+        <div id="vid1">
+            <h3>Video 1</h3>
+            <iframe src="https://www.youtube.com/embed/KBSsrFLn6SE" allowfullscreen> </iframe>
+            <br>
+            <button class="butto">Vote</button>
+        </div>
+        <div id="vid2">
+            <h3>Video 2</h3>
+            <iframe src="https://www.youtube.com/embed/rU_1BWq9HJI" allowfullscreen></iframe>
+            <br>
+            <button class="butto">Vote</button>
+        </div>
+        <div id="vid3">
+            <h3>Video 3</h3>
+            <iframe src="https://www.youtube.com/embed/jZvFEtR8RH0" allowfullscreen></iframe>
+            <br>
+            <button class="butto">Vote</button>
+        </div>
+        <h3 class="hed">Top 5 videos</h3>
+        <div id="tabl">
+            <table width=100% padding=30px>
+                <tr>
+                    <th>Rank</th>
+                    <th>Thumbnail</th>
+                    <th>Title</th>
+                    <th>Vote count</th>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td><img src="http://img.youtube.com/vi/rU_1BWq9HJI/1.jpg" alt="Thumbnail"></td>
+                    <td>Video 2</td>
+                    <td>1200</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td><img src="http://img.youtube.com/vi/jZvFEtR8RH0/2.jpg" alt="Thumbnail"></td>
+                    <td>Video 10</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td><img src="http://img.youtube.com/vi/jZvFEtR8RH0/1.jpg" alt="Thumbnail"></td>
+                    <td>Video 200</td>
+                    <td>900</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td><img src="http://img.youtube.com/vi/jZvFEtR8RH0/2.jpg" alt="Thumbnail"></td>
+                    <td>Video Naziv</td>
+                    <td>320</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td><img src="http://img.youtube.com/vi/rU_1BWq9HJI/1.jpg" alt="Thumbnail"></td>
+                    <td>Naslov videa</td>
+                    <td>30</td>
+                </tr>
+
+            </table>
+        </div>
+    </body>
 </html>
