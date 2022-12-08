@@ -4,19 +4,19 @@
   background-size: 100% 100%;
 }
 
-.refr:hover {
+.refresh:hover {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
 
-.hed{
+.head{
   margin-top: 20px;
   padding-top: 20px;
   text-align: center;
-  text-shadow: 0 0 3px #FF0000;
+  text-shadow: 0 0 3px rgba(255, 174, 0, 0.8);
 }
 
-#for{
+#form{
   margin:auto;
   text-align: center;
 }
@@ -27,6 +27,21 @@ input[type=submit]{
   cursor: pointer;
 }
 
+
+.button{
+  margin-top: 10px;
+  background-color: bisque;
+  color: black;
+  width: 160px;
+  height: 40px;
+  border-radius: 30%;
+  transition-duration: 0.4s;
+}
+
+.button:hover{
+  box-shadow: 0 12px 16px 0 rgba(255, 115, 0, 0.8), 0 17px 50px 0 rgba(255, 174, 0, 0.8);
+}
+
 #vid1{
   color: white;
   text-shadow: 2px 2px 4px #000000;
@@ -35,20 +50,6 @@ input[type=submit]{
   width: 45%;
   height: 450px;
   margin-bottom: 15px;
-}
-
-.butto{
-  margin-top: 10px;
-  background-color: bisque;
-  color: black;
-  width: 60px;
-  height: 60px;
-  border-radius: 30%;
-  transition-duration: 0.4s;
-}
-
-.butto:hover{
-  box-shadow: 0 12px 16px 0 rgba(255, 115, 0, 0.8), 0 17px 50px 0 rgba(255, 174, 0, 0.8);
 }
 
 #vid2{
@@ -74,9 +75,10 @@ input[type=submit]{
 iframe {
   width: 80%;
   height: 350px;
+  border: solid 1px rgb(0, 0, 0);
 }
 
-#tabl {
+#table {
   border: 2px solid black;
   width: 80%;
   margin: auto;
