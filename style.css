@@ -1,4 +1,4 @@
-#back{
+#back {
   background-color: lightgray;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -9,26 +9,25 @@
   transform: scaleX(-1);
 }
 
-.head{
+.head {
   margin-top: 20px;
   padding-top: 20px;
   text-align: center;
   text-shadow: 0 0 3px rgba(255, 174, 0, 0.8);
 }
 
-#form{
-  margin:auto;
+#form {
+  margin: auto;
   text-align: center;
 }
 
-input[type=submit]{
+input[type="submit"] {
   background-color: bisque;
   color: black;
   cursor: pointer;
 }
 
-
-.button{
+.button {
   margin-top: 10px;
   background-color: bisque;
   color: black;
@@ -38,11 +37,12 @@ input[type=submit]{
   transition-duration: 0.4s;
 }
 
-.button:hover{
-  box-shadow: 0 12px 16px 0 rgba(255, 115, 0, 0.8), 0 17px 50px 0 rgba(255, 174, 0, 0.8);
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(255, 115, 0, 0.8),
+    0 17px 50px 0 rgba(255, 174, 0, 0.8);
 }
 
-#vid1{
+#vid1 {
   color: white;
   text-shadow: 2px 2px 4px #000000;
   text-align: center;
@@ -52,7 +52,7 @@ input[type=submit]{
   margin-bottom: 15px;
 }
 
-#vid2{
+#vid2 {
   color: white;
   text-shadow: 2px 2px 4px #000000;
   text-align: center;
@@ -61,12 +61,12 @@ input[type=submit]{
   height: 450px;
 }
 
-#vid3{
+#vid3 {
   color: white;
   text-shadow: 2px 2px 4px #000000;
   margin-top: 15px;
   text-align: center;
-  clear:both;
+  clear: both;
   margin: auto;
   width: 45%;
   height: 450px;
@@ -84,7 +84,8 @@ iframe {
   margin: auto;
 }
 
-th, td {
+th,
+td {
   color: rgb(0, 0, 0);
   text-shadow: 2px 2px 4px #000000;
   padding: 15px;
